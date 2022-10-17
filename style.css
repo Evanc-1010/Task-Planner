@@ -113,7 +113,12 @@ body {
 .content-Container {
   width: 100%;
   min-height: 80vh;
+  /* height: 200vh; */
 }
+
+/* .task-list-todo-container {
+  overflow-y: scroll;
+} */
 
 .add-btn-Container{
   display: flex;
@@ -157,7 +162,7 @@ body {
 }
 
 .modal-btn-set > .submit-btn:hover {
-  background-color: lightskyblue;
+  background-color: blue;
   font-weight: 900;
 }
 /* add task modal ended*/
