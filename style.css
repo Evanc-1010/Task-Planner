@@ -140,6 +140,11 @@ body {
   
 }
 
+.modal-content {
+  background: lightskyblue;
+}
+
+
 .modal-title {
   font-size: 2rem!important;
   text-align: center!important;
