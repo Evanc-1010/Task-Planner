@@ -46,6 +46,19 @@ body {
   margin: 4% auto;
 }
 
+/* Google Fonts */
+.todo-backlog > h1 {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.doing > h1 {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.done > h1 {
+  font-family: 'Permanent Marker', cursive;
+}
+
 .todo-Tab {
   box-sizing: border-box;
   display: block;
@@ -192,4 +205,13 @@ footer {
   font-size: 1.25rem;
   color: white;
   font-weight: 700;
+}
+
+footer > .back-to-top {
+  display: flex;
+  justify-content: end;
+}
+
+footer > .back-to-top > a {
+  color: lightgrey;
 }
